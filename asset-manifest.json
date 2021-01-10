@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/moving-boxes/static/css/main.21258d79.chunk.css",
+    "main.js": "/moving-boxes/static/js/main.669a2c2f.chunk.js",
+    "main.js.map": "/moving-boxes/static/js/main.669a2c2f.chunk.js.map",
+    "runtime-main.js": "/moving-boxes/static/js/runtime-main.2f0d85ac.js",
+    "runtime-main.js.map": "/moving-boxes/static/js/runtime-main.2f0d85ac.js.map",
+    "static/js/2.fcdb233e.chunk.js": "/moving-boxes/static/js/2.fcdb233e.chunk.js",
+    "static/js/2.fcdb233e.chunk.js.map": "/moving-boxes/static/js/2.fcdb233e.chunk.js.map",
+    "static/js/3.f60a401a.chunk.js": "/moving-boxes/static/js/3.f60a401a.chunk.js",
+    "static/js/3.f60a401a.chunk.js.map": "/moving-boxes/static/js/3.f60a401a.chunk.js.map",
+    "index.html": "/moving-boxes/index.html",
+    "static/css/main.21258d79.chunk.css.map": "/moving-boxes/static/css/main.21258d79.chunk.css.map",
+    "static/js/2.fcdb233e.chunk.js.LICENSE.txt": "/moving-boxes/static/js/2.fcdb233e.chunk.js.LICENSE.txt",
+    "static/media/MovingBoxes.module.css": "/moving-boxes/static/media/Zelda_Koholint_Island.25cf3f3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f0d85ac.js",
+    "static/js/2.fcdb233e.chunk.js",
+    "static/css/main.21258d79.chunk.css",
+    "static/js/main.669a2c2f.chunk.js"
+  ]
+}
