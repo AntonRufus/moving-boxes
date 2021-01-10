@@ -1,5 +1,6 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useEffect, useRef} from "react";
 import css from "./MovingBoxes.module.css";
+import useMovement from "./useMovement";
 
 const MovingBoxes = () => {
         const canvasRef = useRef(null);
@@ -7,9 +8,7 @@ const MovingBoxes = () => {
         const linkUpRef = useRef(null);
         const linkRightRef = useRef(null);
         const linkLeftRef = useRef(null);
-        const [x, setX] = useState(0);
-        const [y, setY] = useState(0);
-        const [direction, setDirection] = useState('down');
+        const {x, y, direction, move} = useMovement();
 
         // set the height and with
         useEffect(() => {
@@ -33,29 +32,6 @@ const MovingBoxes = () => {
 
             context.drawImage(theLinkRef.current, x, y);
         }, [x, y]);
-
-        // add event listener to window to listen arrow keys
-        useEffect(() => {
-            const handleKeyDown = (e) => {
-                if (e.key === 'ArrowUp') move('up');
-                if (e.key === 'ArrowLeft') move('left');
-                if (e.key === 'ArrowDown') move('down');
-                if (e.key === 'ArrowRight') move('right');
-            };
-
-            window.addEventListener('keydown', handleKeyDown);
-
-            return () => window.removeEventListener('keydown', handleKeyDown);
-        }, []);
-
-        // function for movements
-        const move = (dir) => {
-            setDirection(dir);
-            if (dir === 'up') setY((y) => y - 20);
-            if (dir === 'left') setX((x) => x - 20);
-            if (dir === 'down') setY((y) => y + 20);
-            if (dir === 'right') setX((x) => x + 20);
-        };
 
         return (
             <div className={css.app}>
