@@ -1,3 +1,30 @@
+# Moving boxes 
+
+## React APP that allows you to move a Zelda character around the map.
+
+#### https://antonrufus.github.io/moving-boxes/
+
+#### Part of the Multi apps project.
+
+##### https://github.com/AntonRufus/multi-apps-project/
+
+## Tech stack:
+
+  ### React:
+    - Hooks
+
+  ### HTML:
+    - Canvas
+
+  ### CSS:
+    - CSS modules
+
+## Feel free to contact me via LinkedIn: 
+
+#### https://www.linkedin.com/in/anton-zhyvotovskyi/
+
+--------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
